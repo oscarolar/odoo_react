@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <template id="odoo_react_assets_frontend" inherit_id="website.assets_frontend" name="Includes ReactJS into Odoo env">
+      <xpath expr="//script[last()]" position="after">
+        <script type="text/javascript" src="/odoo_react/static/src/js/react.js"/>
+      </xpath>
+    </template>
+  </data>
+</openerp>
